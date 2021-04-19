@@ -228,6 +228,11 @@ h5 {
     display: block;
     padding: 20px;
 }
+ @media only screen and (max-width: 800px) {
+    .box-logo img{
+        width:50px;
+    }
+}
 
 .box-primary-nav-trigger {
     position: absolute;
